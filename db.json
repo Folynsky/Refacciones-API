@@ -2,39 +2,76 @@
   "refacciones": [
     {
       "nombre": "Refaccion 1",
-      "categoria": "Frenos",
+      "categoria_id": 1,
       "precio": "202",
-      "id": "1"
+      "id": "1",
+      "stock": 5,
+      "disponible": true
     },
     {
       "id": "2",
       "nombre": "Refaccion 2",
-      "categoria": "Lubricantes",
-      "precio": 199
+      "categoria_id": 2,
+      "precio": 199,
+      "stock": 5,
+      "disponible": true
     },
     {
       "id": "3",
       "nombre": "Refaccion 3",
-      "categoria": "Skibidi",
-      "precio": 10000
+      "categoria_id": 3,
+      "precio": 10000,
+      "stock": 5,
+      "disponible": true
     },
     {
       "nombre": "Refaccion Skibidi Edit",
-      "categoria": "Motor",
+      "categoria": 1,
       "precio": "777.77",
-      "id": "4"
+      "id": "4",
+      "stock": 5,
+      "disponible": true
     },
     {
       "id": "1ba5",
       "nombre": "Toilet",
-      "categoria": "Transmision",
-      "precio": "123456"
+      "categoria_id": 2,
+      "precio": "123456",
+      "stock": 5,
+      "disponible": true
     },
     {
       "id": "1e5d",
       "nombre": "Kevin",
-      "categoria": "x",
-      "precio": "2"
+      "categoria_id": 3,
+      "precio": "2",
+      "stock": 5,
+      "disponible": true
+    },
+    {
+      "nombre": "Bujia",
+      "categoria_id": 2,
+      "precio": "2",
+      "id": "T4fHWlx",
+      "stock": 5,
+      "disponible": true
     }
+  ],
+  "categorias":[
+    {
+    "id": 1,
+    "nombre": "Frenos",
+    "descripcion": "TEXTO DE EJEMPLO"
+    },
+    {
+    "id": 2,
+    "nombre": "Motor",
+    "descripcion": "TEXTO DE EJEMPLO"
+    },
+    {
+      "id": 3,
+      "nombre": "Transmision",
+      "descripcion": "TEXTO DE EJEMPLO"
+      }
   ]
 }
